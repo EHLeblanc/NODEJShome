@@ -4,7 +4,8 @@
   "description": "test json",
   "main": "index.js",
   "scripts": {
-    "hello": "node helloworld.js"
+    "hello": "node helloworld.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
