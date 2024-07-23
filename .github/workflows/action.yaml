@@ -5,12 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     uses: actions/checkout@v3
-      - name: Set up Node.js
-    uses: actions/setup-node@v2
+    name: Set up Node.js
+    -uses: actions/setup-node@v2
     with:
           node-version: '14'
-      - run: npm install
-        working-directory: ./Nodejsexample
-      -name: Run tests
-       run: npm test
-       working-directory: ./Nodjsexample
+    -run: npm install
+    working-directory: ./Nodejsexample
+    -name: Run tests
+    run: npm test
+    -working-directory: ./Nodjsexample
