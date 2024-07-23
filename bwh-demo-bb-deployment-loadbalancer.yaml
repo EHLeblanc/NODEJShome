@@ -14,9 +14,6 @@ spec:
         app: bb-web
     spec:
       containers:
-      - name: bb-site
-        spec:
-  containers:
     - name: bulletinboard
       image: your-dockerhub-username/bulletinboard-app:latest
       ports:
